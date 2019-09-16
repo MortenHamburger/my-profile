@@ -1,0 +1,96 @@
+/* Colors and Fonts */
+body {
+background-color:black;
+color:#EAF0CE;
+font-family: 'Dosis', sans-serif;
+
+}
+h1 {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+p {
+	font-weight: lighter;
+	text-justify: center;
+
+
+}
+
+a {
+	text-decoration: none;
+Color:#313628;
+
+
+}
+a:hover {
+	Color:#C6C5B9;
+	
+}
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+
+}
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+
+}
+
+.card-black {
+background-color: #050404;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(255,255,255,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-small-circle {
+	border-radius: 50%;
+	width:200px;
+	height: 200px;
+}
+
+.btn-white {
+	background-color: #313628;
+	color:#EAF0CE;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-white:hover {
+	background-color: #EAF0CE;
+	color: #313628;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	
+
+}
+/* Custom design with id */
+
+#intro p {
+margin-bottom: 40px;
+
+}
